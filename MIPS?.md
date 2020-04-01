@@ -36,9 +36,8 @@ RISC 아키텍처는 다수의 축소 명령어들을 신속하게 실행하여 
 I type 명령어에서 c = a + b와 같은 연산을 수행한다 하면, 이 때 b는 레지스터에 없는 임의의 값이 된다.
 R type 명령어에 있는 약자인 rs와 rt를 그대로 사용하며, 이때 사용되는 임의의 값은 immediate(즉시값)로 부른다. 
 계산은 rt = rs + imm로 한다.
-- J type: 무조건 분기 명령어로, 특정 메모리 주소로 바로 이동이 필요한 경우에 사용되는 명령어다. 이동할 메모리 주소를 연산에 사용한다.
-
-
+- J type: 무조건 분기 명령어로, 특정 메모리 주소로 바로 이동이 필요한 경우에 사용되는 명령어다. 이동할 메모리 주소를 연산에 사용한다.   
+![](https://github.com/aldrn29/Assembly/blob/master/screenshot/MIPS%20Instruction.jpg?raw=true)
 
 #### Spim Simulator
 MIPS 프로세서의 시뮬레이터로, 어셈블리 코드를 실행하기 위해 설계된 소프트웨어.   
